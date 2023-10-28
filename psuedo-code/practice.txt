@@ -1,7 +1,21 @@
-Hi, this is just a file to see what code I was practicing while making this game.
-At the bottom of the page I've included a short list explaining the problems I had while coding.
+This page is a page explaining the problems I had and how I learned to solve them.
+At the bottom of the page is a bunch of psuedo-code I was throwing onto the page during the learning process.
+I also included some notes explaining my thinking process.
 
+Issues while coding:
 
+- knowing what to connect
+        Watched videos and followed along, made sure I understood what was going on
+- images weren't displaying (pathing)
+        Contacted tech-mentor to see what would cause broken images
+- Writing functions
+        It will get better overtime. Just kept practicing and rewriting them. (It got WAY better by the end of this)
+- Figuring out how to make input box functional
+        Got help from Jaylin. Realizing I'm way overcomplicating things. After this things started clicking in my brain.
+-Input bot functional but calculations are off
+         All I had to do was move my math.random equation above my Userinput if-else statements.. I dont want to talk about it. Took me 3 days to figure out.
+
+Surely there is some way to condense my code, but I think writing it so many times was beneficial to me in the end.
 
 // connect rock, paper, scissors, play again button, 
     // display box(form?)
@@ -19,6 +33,7 @@ At the bottom of the page I've included a short list explaining the problems I h
     // math.random
 
     // KNOW HOW TO USE RANDOM
+
 
 
 // let display = document.querySelector('.display')
@@ -83,16 +98,3 @@ else {
     }
 }
 // for player do event listener at bottom of page
-
-
-Issues while coding:
-
-- knowing what to connect
-        Watched videos and followed along, made sure I understood what was going on
-- images weren't displaying (pathing)
-        Contacted instructor to see what would cause broken images
-- Writing functions
-        It will get better overtime. Just kept practicing and rewriting them.
-- Figuring out how to make input box functional
--Input bot functional but calculations are off
-

@@ -5,7 +5,7 @@ var yourScore = 0;
 var opponent;
 var opponentScore = 0;
 var choices = ["rock", "paper", "scissors"];
-
+var previousScore = 0;
 
 
 // player choice
@@ -21,8 +21,9 @@ window.onload = function(){ // when page loads function starts
 }
 
 
+
+
 function selectChoice(userInp){
-    // choice listens to this event b/c of line 17
     
     you = this.id;
     document.getElementById("your-choice").src = you + ".png"
@@ -62,7 +63,6 @@ function selectChoice(userInp){
     
 
     }
-    
 
 if (you === opponent) {
     yourScore += 1;
@@ -102,7 +102,16 @@ else {
 document.getElementById("your-score").innerText = yourScore;
 document.getElementById("opponent-score").innerText = opponentScore;
 
+if (yourScore === previousScore + 1) {
+    const winPoint = document.getElementById("winPoint");
+    winPoint.play();
 }
+
+previousScore = yourScore;
+
+}
+
+
 
 
 
@@ -110,9 +119,6 @@ function submitUserChoice() {
     var userInp = document.getElementById("input").value.toLowerCase();
     if (choices.includes(userInp)) {
     // Set opponent's choice here
-
-    
-    
     selectChoice(userInp);
     
     } else {
