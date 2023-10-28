@@ -1,12 +1,14 @@
 
 html{
-    background: url(https://i.redd.it/spwkd68qkq6b1.gif)
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/302457af-3536-48e0-a55a-0c161f079e36/deapxvb-a7f13486-6ae7-4bcc-87fc-3bd73d670813.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMwMjQ1N2FmLTM1MzYtNDhlMC1hNTVhLTBjMTYxZjA3OWUzNlwvZGVhcHh2Yi1hN2YxMzQ4Ni02YWU3LTRiY2MtODdmYy0zYmQ3M2Q2NzA4MTMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vXpO-_QUlM6NB18Gh7jD6AruhyYZC8FnBKpnqTLlzQ0);
+    background-size: 100%;
+    
     
 }
 
 .all{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around
 }
 h1{ color: white;
     font-family: 'Pixelify Sans', sans-serif;
@@ -25,11 +27,11 @@ h1{ color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 25px;
+    margin: 20px;
     margin-top: 5px;
-    background-color: #9b84ef;
-    padding: 100px;
-    width: 500px;
+    background-color: #d970d9;
+    padding: 75px;
+    width: 450px;
     height: 300px;
     border-radius: 20px;
 }
@@ -59,6 +61,7 @@ h1{ color: white;
 #choices img {
     width: 80px;
     height: 80px;
+    cursor: pointer;
 }
 
 .weapon{
@@ -68,10 +71,11 @@ h1{ color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #9b84ef;
+    background-color: #d970d9;
     width: 600px;
     margin: auto;
     border-radius: 20px;
+    
 
 }
 input{
@@ -80,7 +84,7 @@ input{
     margin-bottom: 10px;
     border: 2px solid black;
     text-align: center;
-    background-color: #BEADFA;
+    background-color: #c545c5;
     color: white;
     font-family: 'Pixelify Sans', sans-serif;
     font-size: 25px;
@@ -93,8 +97,11 @@ button{
     padding: 10px;
     color: white;
     font-family: 'Pixelify Sans', sans-serif;
-    background-color: #a088f9;
+    background-color: #c545c5;
     width: 100px;
+    cursor: pointer;
+    border: none;
+    margin: 1px;
 }
 
 #mute{

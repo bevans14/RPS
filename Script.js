@@ -7,6 +7,7 @@ var opponentScore = 0;
 var choices = ["rock", "paper", "scissors"];
 
 
+
 // player choice
 
 window.onload = function(){ // when page loads function starts
@@ -23,7 +24,11 @@ window.onload = function(){ // when page loads function starts
 function selectChoice(userInp){
     // choice listens to this event b/c of line 17
     
+    you = this.id;
+    document.getElementById("your-choice").src = you + ".png"
 
+    opponent = choices[Math.floor(Math.random() * 3)];
+    document.getElementById("opponent-choice").src = opponent + ".png";
 
     if (userInp === opponent) {
         yourScore += 1;
@@ -33,7 +38,7 @@ function selectChoice(userInp){
         if (userInp === "rock") {
             if (opponent === "scissors") {
                 yourScore += 1;
-            }
+              }
             else if (opponent === "paper") {
                 opponentScore +=1;
             }
@@ -58,12 +63,6 @@ function selectChoice(userInp){
 
     }
     
-   
-    you = this.id;
-    document.getElementById("your-choice").src = you + ".png"
-
-    opponent = choices[Math.floor(Math.random() * 3)];
-    document.getElementById("opponent-choice").src = opponent + ".png";
 
 if (you === opponent) {
     yourScore += 1;
@@ -73,6 +72,7 @@ else {
     if (you === "rock") {
         if (opponent === "scissors") {
             yourScore += 1;
+
         }
         else if (opponent === "paper") {
             opponentScore +=1;
@@ -81,6 +81,7 @@ else {
     else if (you === "scissors") {
         if (opponent === "paper") {
             yourScore += 1;
+
         }
         else if (opponent === "rock") {
             opponentScore +=1;
@@ -125,14 +126,11 @@ function submitUserChoice() {
 }
 
 
-
-
 function mute(){
     if(jazz.muted == false){
       jazz.muted = true;
     } else {
       jazz.muted = false;
     }
-
 }
 
