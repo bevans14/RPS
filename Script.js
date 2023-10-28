@@ -22,6 +22,7 @@ window.onload = function(){ // when page loads function starts
 
 function selectChoice(userInp){
     // choice listens to this event b/c of line 17
+    
 
 
     if (userInp === opponent) {
@@ -108,20 +109,30 @@ function submitUserChoice() {
     var userInp = document.getElementById("input").value.toLowerCase();
     if (choices.includes(userInp)) {
     // Set opponent's choice here
+
     
     
     selectChoice(userInp);
-    
     
     } else {
         alert("Invalid choice. Please enter 'rock', 'paper', or 'scissors'.");
 
     }
-    
+
     document.getElementById("your-choice").src = userInp + ".png";
     document.getElementById("opponent-choice").src = opponent + ".png";
 
 }
 
 
+
+
+function mute(){
+    if(jazz.muted == false){
+      jazz.muted = true;
+    } else {
+      jazz.muted = false;
+    }
+
+}
 

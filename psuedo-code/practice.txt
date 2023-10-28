@@ -94,4 +94,5 @@ Issues while coding:
 - Writing functions
         It will get better overtime. Just kept practicing and rewriting them.
 - Figuring out how to make input box functional
+-Input bot functional but calculations are off
 
