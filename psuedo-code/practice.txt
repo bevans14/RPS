@@ -4,7 +4,7 @@ I also included some notes explaining my thinking process.
 
 Issues while coding:
 
-- knowing what to connect
+- knowing what to connect to DOM
         Watched videos and followed along, made sure I understood what was going on
 - images weren't displaying (pathing)
         Contacted tech-mentor to see what would cause broken images
