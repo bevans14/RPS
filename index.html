@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+<body>
+    <section class="title">
+    <h1>Rock Paper Scissors</h1>
+    <section class="all">
+    <section class="opponentscore">
+    <p>Opponent Score:</p>
+    <p id="opponent-score">0</p>
+    <p>Opponent's choice</p>
+    <img id="opponent-choice">
+    </section>
+    <br>
+    <section class="yourchoice">
+        <p>Your Score:</p>
+        <p id="your-score">0</p>
+    <p>Your choice</p>
+    <img id="your-choice">
+</section>
+</section>
+<section class="weapon">
+    <p class="choose">Choose your weapon!</p>
+    <div id="choices"></div>
+    <label for="name">Rock Paper or Scissors?</label>
+
+<input type="text" id="input" name="input"> <button onclick="submitUserChoice()">Submit</button>
+
+<button onClick="window.location.reload();" class="refresh-button" id="button">Play Again</button>
+</section>
+</section>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Varela+Round&display=swap');
+    </style>
+</body>
+</html>

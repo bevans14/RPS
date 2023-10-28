@@ -1,0 +1,98 @@
+
+html{
+    background: url(https://i.redd.it/spwkd68qkq6b1.gif)
+    
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+h1{ color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 20px;
+
+}
+.opponentscore, .yourchoice{
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 40px;
+    line-height: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    margin-top: 5px;
+    background-color: #9b84ef;
+    padding: 100px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#opponent-choice {
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;  
+}
+
+#your-choice {
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.choose{
+    margin-bottom: 5px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+}
+
+.weapon{
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9b84ef;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+input{
+    width: 45%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #BEADFA;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
+    outline: none;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #a088f9;
+    width: 100px;
+}

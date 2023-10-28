@@ -1,0 +1,97 @@
+Hi, this is just a file to see what code I was practicing while making this game.
+At the bottom of the page I've included a short list explaining the problems I had while coding.
+
+
+
+// connect rock, paper, scissors, play again button, 
+    // display box(form?)
+
+// the computer needs to pick rock paper or scissors
+
+// user clicks image to play rock, paper, or scissors
+    // will need on click event listener
+
+// user sees if they win or lose in the display box
+    // will need an if else statement
+
+// will need to write a function for probability ????
+    // idek how to do this lol
+    // math.random
+
+    // KNOW HOW TO USE RANDOM
+
+
+// let display = document.querySelector('.display')
+// let rock = document.getElementById('#rock')
+// let paper = document.getElementById('#paper')
+// let scissors = document.getElementById('#scissors')
+// let input = document.getElementById('#input')
+// let playerValue = '';
+// let playAgain = document.querySelector('')
+// let testValue = '';
+// const choices = ["rock", "paper", "scissors"]
+// let img = document.getElementsByClassName('img')
+
+
+
+// I know I need to add event listener
+
+//if else -> if computer === 'rock'
+
+
+// img.forEach(img => img.addEventListener('click',()  => {
+
+// // userChoice = img.getAttribute(choices);
+
+// }))
+
+
+// this defines each choice the computer has to choose from
+
+
+// function computerChoice(){ 
+//     const randomNum = Math.floor(Math.random() * 3);  //math.floor so it rounds to a whole number and math random so it picks a random #
+//     switch (randomNum) {
+//         case 0:
+//             testValue = choices[0];
+//             break;
+//         case 1:
+//             testValue = choices[1];
+//             break;
+//         case 2:
+//             testValue = choices[2];
+//             break;
+//     }
+// }
+
+else {
+    if (you == "rock") {
+        if (opponent == "scissors") {
+            yourScore += 1;
+        }
+        else if (opponent == "paper") {
+            opponentScore +=1;
+        }
+    }
+    if (you == "rock") {
+        if (opponent == "scissors") {
+            yourScore += 1;
+        }
+        else if (opponent == "paper") {
+            opponentScore +=1;
+        }
+    }
+}
+// for player do event listener at bottom of page
+
+
+Issues while coding:
+
+- knowing what to connect
+        Watched videos and followed along, made sure I understood what was going on
+- images weren't displaying (pathing)
+        Contacted instructor to see what would cause broken images
+- Writing functions
+        It will get better overtime. Just kept practicing and rewriting them.
+- Figuring out how to make input box functional
+
